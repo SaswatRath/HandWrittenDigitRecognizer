@@ -52,7 +52,7 @@ def predict(model, img):
     return np.argmax(predictions), np.max(predictions) 
  
 class DrawingApp: 
-    def __init__(self, model):  # Change 'init' to '__init__'
+    def __init__(self, model):  
         self.model = model 
         self.window = Tk() 
         self.window.title("Digit Recognizer") 
