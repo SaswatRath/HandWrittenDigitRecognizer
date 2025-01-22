@@ -1,2 +1,22 @@
 # HandWrittenDigitRecognizer
-A GUI-based Handwritten Digit Recognizer that predicts digits (0-9) drawn on a canvas using a CNN trained on the MNIST dataset. Built with TensorFlow and Tkinter, it loads a pre-trained model (`digit_recognizer_model.h5`) if available or trains a new one. Features include digit recognition, an interactive canvas, and model persistence.
+This project is a handwritten digit recognition application that uses a convolutional neural network (CNN) to classify handwritten digits. It includes a drawing interface where users can draw a digit, and the model predicts the corresponding number with a confidence score.
+
+## Features
+Handwritten Digit Recognition: Recognizes handwritten digits (0-9) using the MNIST dataset.
+
+Interactive Drawing Interface: A user-friendly interface built using Tkinter where users can draw digits.
+
+Model Training and Loading: Automatically trains a new model if no saved model is found or loads an existing model.
+
+Data Preprocessing: Scales and reshapes the MNIST dataset for training and prediction.
+
+## Tech Stack
+Python: Core programming language.
+
+TensorFlow: For building and training the CNN model.
+
+Tkinter: For the graphical user interface.
+
+PIL (Pillow): For image processing and resizing.
+
+NumPy: For numerical computations and data manipulation.
