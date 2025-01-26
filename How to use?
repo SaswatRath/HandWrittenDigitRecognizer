@@ -1,0 +1,15 @@
+## 1. Install the required libraries:
+Ensure you have Python installed along with the following libraries:
+pip install tensorflow opencv-python pillow numpy
+
+## 2. Run the script:
+Execute the script using:
+python handwritten_digit_recognizer.py
+
+## 3. Train the model (if not already saved):
+The script will train a CNN on the MNIST dataset if no pre-trained model (digit_recognizer_model.h5) is found. This model will then be saved for future use.
+
+## 4. Use the GUI:
+A window will appear where you can draw digits (0-9) on a black canvas.
+Click "Predict" to see the recognized digit and confidence score displayed on the canvas.
+Click "Clear" to reset the canvas for a new input.
